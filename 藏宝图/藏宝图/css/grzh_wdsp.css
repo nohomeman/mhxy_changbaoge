@@ -1,0 +1,120 @@
+.content-top{width: 1328px;line-height: 32px;background: rgba(0,0,0,0.5);margin: 0 auto;}
+.content-top ul{width: 1256px;}
+.content-top li{float: left;width: 100px;text-align: center;}			
+.c-active{background: rgba(0,0,0,0.5);}
+.content-top li:hover{background: rgba(0,0,0,0.5);}
+
+.content{
+	width: 1328px;
+	height: 718px;
+	background: rgba(225,225,225,.8);
+	margin: 0 auto;
+}
+.content .main{
+	width: 1125px;
+	margin: 0 auto;
+}
+.main .top{
+	height: 50px;
+	margin-bottom:8px ;
+}
+.main .tianjia {
+margin-top:15px ;
+	float: left;
+}
+.main .tianjia span{
+	display: inline-block;
+	color: white;
+	width: 17px;
+	height: 17px;
+	border-radius: 50%;
+	background: #4689ff;
+	text-align: center;
+	font-size: 17px;
+	line-height: 17px;
+	cursor: pointer;
+}
+.main .tianjia b{
+	font-weight: normal;
+}
+.main .search{
+	margin-top:15px ;
+	width: 270px;
+	height: 35px;
+	border-radius:16px ;
+	background: rgba(225,225,225,.8);
+	float: left;
+	position: relative;
+	margin-left:660px ;
+}
+.main .search input{
+	margin-left:20px ;
+	width: 220px;
+	height: 34px;
+	background: rgba(225,225,225,0);
+	border: none;
+}
+.main .search button{
+	width: 21px;
+	height: 21px;
+	background: url(../img/sousuoicon.png) no-repeat;
+	background-size:cover ;
+	border: none;
+	position: absolute;
+	right: 6px;
+	top: 5px;
+}
+.main .wuping{
+	margin-top:15px ;
+	float: right;
+}
+.main .wuping select{
+	width: 100px;
+	height: 28px;
+	background: #b4c4d3;
+}
+table{
+	
+	width: 1125px;
+	border-collapse:collapse ;
+	border: 1px solid #8dd1e8;
+	
+}
+table td{
+	text-align: center;
+	width: 175px;
+	position: relative;
+}
+table  .first{
+	border: none;
+	background: #f55145;
+	height: 28px;
+	color: white;
+}
+table tr{
+	border-bottom: 1px solid #8dd1e8;
+	height: 85px;
+}
+table tr td:nth-child(6){
+	color: #1484b6;
+	cursor: pointer;
+}
+table td p{
+	text-align: center;
+}
+table img{
+	width: 60px;
+	height: 60px;
+}
+table input{
+	position: absolute;
+	left: 35px;
+	top:  33px ;
+}
+.bottom{
+	margin-top:10px ;
+
+}
+.bottom span{
+		cursor: pointer;
+}

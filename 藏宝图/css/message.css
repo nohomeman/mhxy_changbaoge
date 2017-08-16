@@ -1,0 +1,139 @@
+.message{
+	width: 1326px;
+	height: 550px;
+	background: rgba(23,11,13,.5);
+	margin: 0 auto;
+}
+.message .title{
+	width: 1308px;
+	height: 30px;
+	background: rgba(13,9,10,.5);
+	display: inline-block;
+	margin: 6px 0 0 9px;
+	border-radius:6px ;	
+}
+.message .title li{
+	width: 64px;
+	height: 100%;
+	background: #969499;
+	text-align: center;
+	line-height: 30px;
+	margin-right:7px ;
+	border-radius:4px ;
+	float: left;
+	color:black;
+}
+.message .content{
+	width: 1308px;
+	margin:0 auto ;
+	border-bottom:1px solid #19161f ;
+}
+.message .content .name-time{
+	padding-top:30px ;
+}
+.message .content .name-time .name{
+	display: inline-block;
+	width: 70px;
+	height: 26px;
+	background: #c99b2c;
+	text-align: center;
+	line-height: 26px;
+	font-size:13px;
+	color: #762900;
+}
+.message .content .name-time .time{
+	display: inline-block;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	margin-left: 10px;
+	font-size:12px ;
+	color: white;
+}
+.message .content .wrap .text{
+	width: 1100px;
+	line-height: 30px;
+	padding-bottom:35px ;
+	color: white;
+	float: left;
+}
+.message .content .wrap button{
+	width: 53px;
+	height: 28px;
+	background: #808281;
+	color: white;
+	border: none;
+	border-radius:5px ;
+	margin-right: 39px;
+}
+.huifu{
+	display: inline-block;
+	height: 18px;
+	line-height: 20px;
+	background: #858583;
+	border-radius:3px ;
+}
+.huifu span{
+	color: red;
+}
+.content ul{
+	float: right;
+	margin-top: 10px;
+}
+.content li{
+	border: 1px solid #231d27;
+	float: left;
+	margin-right:10px ;
+	border-radius:4px ;
+}
+.content a{
+	display: inline-block;
+	padding: 6px 12px;
+}
+.content .page{
+	width: 50px;
+	height: 20px;
+	float: right;
+	text-align: center;
+	line-height: 20px;
+	margin-top: 15px;
+	color: white;
+}
+ .bottom{
+	width: 1326px;
+	height: 190px;
+	background: rgba(200,199,204,.5);
+	margin: 0 auto;
+	border-radius:0 0 10px 10px ;
+}
+ .bottom h3{
+ 	width: 1308px;
+ 	
+	margin:0 auto ;
+	border-bottom:1px solid #19161f ;
+	font-size: 13px;
+	padding: 10px 0 8px 0;
+	
+ }
+.bottom textarea{
+	width: 1308px;
+	margin: 0 auto;
+	background: rgba(200,199,204,.5);
+	display: block;
+	border: none;
+	height: 120px;
+	resize: none;
+	text-indent: 1em;
+	font-size: 14px;
+}
+.bottom input{
+	width: 54px;
+	height: 28px;
+	background: #c92a0c;
+	color: white;
+	float: right;
+	border: none;
+	border-radius:5px ;
+	margin-right:10px ;
+	
+}

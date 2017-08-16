@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/header.css" />
+		<link href="css/release.css" rel="stylesheet" />
+		<script src="kindeditor/kindeditor-all.js" type="text/javascript" charset="utf-8"></script>
+		<script src="kindeditor/lang/zh-CN.js" type="text/javascript" charset="utf-8"></script>
+    <style>
+    	.mune li.active a{color: white;}
+
+    </style>
+	</head>
+	<body id="app">
+		<div class="header">
+			<img class="logo" src="img/logo.png">
+			<div class="header-right">
+				<p class="nihao">你好！欢饮来到万宝楼!</p>
+				<ul class="ul1">
+					<li><a href="javascript:;">登录</a></li>
+					<li><a href="javascript:;">注册</a></li>
+				</ul>
+				<ul class="ul2">
+					<li><a href="javascript:;">充值</a></li>
+					<li><a href="javascript:;">客服</a></li>
+					<li><a href="javascript:;">个人中心</a></li>
+				</ul>
+			</div>
+		</div>	
+		
+		<div class="mune">
+			<div class="mune-box">
+				<ul class="clearfix">
+					<li><a href="javascript:;">首页</a></li>
+					<li><a href="javascript:;">本服搜索</a></li>
+					<li><a href="javascript:;">全服搜索</a></li>
+					<li><a href="javascript:;">本服商会搜索</a></li>
+					<li class="active"><a href="javascript:;">求供信息发布</a></li>
+					<li><a href="javascript:;">数据个性定制</a></li>
+					<li><a href="javascript:;">物品查询</a></li>
+					<li><a href="javascript:;">梦幻币比例</a></li>
+					<li><a href="javascript:;">留言反馈</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="release">
+			<ul class="left">
+				<li style="background: #b8c2cb;"><a href="##" style="font-size: 17px;">类型列表</a></li>
+				<li><a href="cloths.html">本服综合列表</a></li>
+				<li><a href="##">{本服}求购</a></li>
+				<li><a href="##">{本服}售卖</a></li>
+				<li><a href="##">{本服}组队</a></li>
+				<li><a href="##">{本服}交流</a></li>
+				<li><a href="##">{本服}其他</a></li>
+				<li><a href="##">全服综合列表</a></li>
+				<li><a href="##">{全服}求购</a></li>
+				<li><a href="##">{全服}售卖</a></li>
+				<li><a href="##">{全服}组队</a></li>
+				<li><a href="##">{全服}交流</a></li>
+				<li style="border-bottom:none ;"><a href="##">其他</a></li>
+				
+			</ul>
+			<div class="right" >
+				<div class="top">
+					<a id="ac" href="##">本服信息发布</a>
+					<a href="##">全服信息发布</a>
+				</div>
+				<div class="bottom">
+					<div class="top">
+						<h3>服务器：湖南区-洞庭湖</h3>
+					</div>
+					
+						<form action="" method="post">
+							
+							<textarea id="editor_id" name="content" style="width:1118px;height:120px;">
+
+</textarea>
+							<!--<input type="submit" value=""/>-->
+							<div class="checkbox">
+								<input type="checkbox" /><label>其他</label>
+								<input type="checkbox" /><label>收购</label>
+								<input type="checkbox" /><label>售卖</label>
+								<input type="checkbox" /><label>组队</label>
+								<input type="checkbox" /><label>交流</label>
+								<span>提示：发布信息必选</span>
+							</div>
+							<button type="submit">确定发布</button>
+							
+						</form>
+					
+				</div>
+			</div>
+			
+		</div>
+		
+		<!--footer-->
+		<div class="footer">
+			<p>所有解释权由幻宝楼梦幻商业数据分析品台所具有</p>
+			<p>公司版权有©1997-2017 中国网络游戏版权保护联盟中心</p>
+		</div>
+	</body>
+	<script type="text/javascript">
+		KindEditor.ready(function(K) {
+			var editor1 = K.create('#editor_id', {
+				cssPath: 'kindeditor/plugins/code/prettify.css',
+				allowFileManager: true,
+				resizeType: 0
+			});
+		});
+	</script>
+</html>

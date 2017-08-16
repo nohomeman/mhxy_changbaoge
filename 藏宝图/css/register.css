@@ -1,0 +1,106 @@
+.model{
+	width: 100vw;
+	height: 100vh;
+	background: black;
+	opacity: .2;
+	position: fixed;
+	z-index: 1;
+}
+.register{
+	width: 575px;
+	height: 600px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	margin: auto;
+	z-index: 2;
+	background: white;
+	border-radius:6px ;
+	
+}
+.register .title{
+	width: 100%;
+	height: 57px;
+	background: url(../img/zhuce.png) no-repeat;
+	background-size:cover ;
+	text-align: center;
+	line-height: 57px;
+	font-size: 20px;
+	color: white;
+}
+.register .content{
+	padding-top:40px ;
+}
+.register .content li{
+	margin-left:30px ;
+}
+.register .content li span{
+	font-size: 13px;
+	color: #3b3535;
+	text-align: right;
+	display: inline-block;
+	width: 78px;
+	height: 13px;
+}
+.register .content li input{
+	width: 235px;
+	height: 33px;
+	border: 1px solid #999999;
+	text-indent: 1em;
+	font-size: 16px;
+	color: #3b3535;
+}
+
+.register .tishi{
+	width: 420px;
+	height: 30px;
+	margin-left:90px ;
+	font-size:13px ;
+	color: #999999;
+	line-height: 30px;
+}
+.register .yzm{
+	position: absolute;
+	right: 150px;
+	top: 0;
+}
+.register .yzm a{
+	height: 30px;
+	width: 60px;
+	display: inline-block;
+	font-size:13px ;
+	text-align: center;
+	color:#2d3834;
+	
+}
+.register .zhuce{
+	width: 340px;
+	height: 45px;
+	margin: 0 auto;
+	position: relative;
+}
+.register .zhuce input{
+	height: 100%;
+	width: 210px;
+	font-size:20px ;
+	color: white;
+	background: #ef3425;
+	border: none;
+	border-radius:5px ;
+}
+.register .zhuce span{
+	width: 120px;
+	height: 21px;
+	color: #999999;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 20px ;
+	position: absolute;
+	top: 40%;
+	right: 0;
+}
+.register .zhuce span a{
+	075eeb
+}

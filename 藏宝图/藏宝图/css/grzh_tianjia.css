@@ -1,0 +1,21 @@
+.content-top{width: 1328px;line-height: 32px;background: rgba(0,0,0,0.5);margin: 0 auto;}
+.content-top ul{width: 1256px;}
+.content-top li{float: left;width: 100px;text-align: center;}			
+.c-active{background: rgba(0,0,0,0.5);}
+.content-top li:hover{background: rgba(0,0,0,0.5);}
+
+.content{
+	width: 1328px;
+	height: 720px;
+	background: rgba(225,225,225,.8);
+	border-radius:0 0 10px 10px ;
+	margin: 0 auto;
+}
+.content .main{
+	width: 1125px;
+	margin: 0 auto;
+}
+.content .main h4{
+	margin-top:53px ;
+	display: inline-block;
+}

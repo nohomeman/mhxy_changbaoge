@@ -1,0 +1,48 @@
+.message{
+	width: 1326px;
+	height: 715px;
+	background: rgba(23,11,13,.5);
+	margin: 0 auto;
+}
+.message .title{
+	width: 1308px;
+	height: 30px;
+	background: rgba(13,9,10,.5);
+	display: inline-block;
+	margin: 6px 0 0 9px;
+	border-radius:6px ;	
+}
+.message .title li{
+	width: 64px;
+	height: 100%;
+	background: #969499;
+	text-align: center;
+	line-height: 30px;
+	margin-right:7px ;
+	border-radius:4px ;
+	float: left;
+	color:black;
+}
+.message .content{
+	width: 1308px;
+	height: 633px;
+	background: rgba(255,255,255,.5);
+	margin: 0 auto;
+}
+.message .content span a:hover{
+	color: red;
+}
+.message .content ul{
+	margin:30px 0 0 10px ;
+}
+.message .content li{
+	line-height: 40px;
+}
+.message .content span{
+	display: inline-block;
+	margin-left:50px ;
+	height: 20px;
+	line-height: 20px;
+	
+	
+}

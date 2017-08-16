@@ -1,0 +1,118 @@
+.release{
+	width: 1330px;
+	height: 565px;
+	margin: 0 auto;
+	background: rgba(255,255,255,.5);
+	border-radius:10px ;
+	box-shadow: 0 0 40px #000000;
+}
+.release .left{
+	width: 194px;
+	height: 534px;
+	float: left;
+	border: 1px solid #8fb0c1;
+	background: #f1f3f2;
+	margin:10px 0px 0px 1px;
+}
+.release .left li{
+	width: 190px;
+	height: 38px;
+	border-bottom: 1px solid #a9bdbb;
+	margin: 2px 0 0 2px;
+	font-size:13px ;
+	line-height: 39px;
+	background:rgba(225,223,225,.8);
+}
+.release .left a{
+	color:#354e4b;
+	font-weight: 600;
+	width: 100px;
+	padding-left:35px ;
+}
+.release .right{
+	width: 1120px;
+	height:328px;
+	margin-right:1px ;
+	float: right;
+	margin-top:10px ;
+}
+.release .right .top{
+	width: 1118px;
+	height: 31px;
+	background: rgba(219,219,217,.5);
+	border: 1px solid #56adcb;
+}
+.release .right .top a{
+	display: inline-block;
+	width: 118px;
+	height: 29px;
+/*	background: #9bb2b8;*/
+	margin: 1px 0 0 1px;
+	float: left;
+	text-align: center;
+	line-height: 29px;
+	color: #344d52;
+	font-size: 13px;
+}
+
+#ac{
+	background: #9bb2b8;
+	color: #f11a00;
+}
+
+.release .right .bottom{
+	width: 1118px;
+	height: 288px;
+	border: 1px solid #98adae;
+	margin-top:7px ;
+	position: relative;
+	background: white;
+}
+.release .right .bottom .top{
+	line-height: 39px;
+	width: 1118px;
+	height: 39px;
+	border-bottom:1px solid  #98adae;
+	background: rgba(223,218,224,.8);
+}
+.release .right .bottom .top h3{
+	display: inline-block;
+	text-indent: 1em;
+	color: #2e4952;
+	font-size: 15px;
+}
+.release .right .bottom .checkbox{
+	width: 575px;
+	height: 30px;
+	float: right;
+}
+.release .right .bottom .checkbox input{
+	width: 15px;
+	height: 15px;
+	border: 1px solid #999999;
+}
+.release .right .bottom .checkbox label{
+	display: inline-block;
+	width: 40px;
+	margin:5px 10px 0 5px ;
+	font-size:15px ;
+	color: #3d4b56;
+}
+.release .right .bottom .checkbox span{
+	font-size: 15px;
+	color: #86959c;
+}
+.release .right .bottom button{
+	width: 115px;
+	height: 30px;
+	background: #82959c;
+	text-align: center;
+	line-height: 30px;
+	border: none;
+	border-radius:5px ;
+	position:absolute ;
+	right: 20px;
+	bottom: 10px;
+	color: white;
+	font-size:15px ;
+}
