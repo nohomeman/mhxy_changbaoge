@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.clearfix:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.xiangqing {
+  line-height: 21px;
+  font-size: 14px;
+  background: #184a5e;
+  width: 390px;
+  padding: 18px;
+  border: 1px solid;
+}
+.xiangqing .xiangqing-left {
+  float: left;
+  width: 116px;
+}
+.xiangqing .xiangqing-right {
+  width: 254px;
+  float: right;
+}
+.xiangqing .xiangqingtitle {
+  color: #ffff00;
+}
+.xiangqing .miaoshu {
+  color: white;
+}
+.xiangqing .dengji {
+  color: #ffff00;
+  line-height: 70px;
+}
+.xiangqing .jichushuxing {
+  color: #ffff00;
+}
+.xiangqing .fumo {
+  color: #00e100;
+}
+.xiangqing .teji {
+  color: #4cbbf5;
+}
+.xiangqing .shitou {
+  color: #00e100;
+}
+.xiangqing .tiaojian {
+  color: #ef83ef;
+}
+.xiangqing .zhizaozhe {
+  color: white;
+}
+.xiangqing .ronglian {
+  color: #ffff00;
+}

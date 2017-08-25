@@ -1,0 +1,10 @@
+			.content{width: 1330px;margin: 0 auto;background: rgba(223,208,211,0.8);border-radius: 1%;padding-bottom: 32px;}
+
+			.search input{height:40px;border-radius: 40px;border: 1px solid rgb(15,158,190);
+				text-indent: 15px;width:100%;}
+			.search input:focus{outline: 0;}
+			.search{padding:13px 0;position: relative;width: 684px;margin: 0 auto;}
+			.search>a{position: absolute;top:17px;right:14px;width: 30px;height:30px;
+					background: url(../img/sousuo.png) no-repeat;background-size:cover ;}
+			.yema{margin-top: 14px;}
+			.content2{margin-bottom: 50px;}	

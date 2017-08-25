@@ -1,0 +1,365 @@
+.content-top{width: 1328px;line-height: 32px;background: rgba(0,0,0,0.5);margin: 0 auto;}
+.content-top ul{width: 1256px;}
+.content-top li{float: left;width: 100px;text-align: center;}			
+.c-active{background: rgba(0,0,0,0.5);}
+.content-top li:hover{background: rgba(0,0,0,0.5);}
+
+.gujia{
+	width: 1328px;
+	background: rgba(225,225,225,.5);
+	margin: 0 auto;
+	border-radius:10px ;
+	padding-bottom: 16px; 
+}
+.gujia .wrap{
+	width: 90%;
+	
+	margin: 0 auto;
+	
+}
+.gujia .wrap ul{
+	margin:34px 0 0 0;
+	float: left;
+	padding-bottom:30px ;
+	
+}
+.gujia .wrap li{
+	margin-bottom:15px ;
+
+}
+.gujia .wrap select{
+	background: rgba(225,225,225,.5);
+}
+.gujia .wrap input{
+	height: 26px;
+	border: 1px solid #525156;
+	width: 50px;
+	color: red;
+	background: rgba(225,225,225,.5);
+}
+.gujia .wrap li span:nth-child(1){
+	text-align: right;
+	display: inline-block;
+	width: 100px;
+}
+.gujia .wrap .li1 input{
+	width: 140px;
+	
+}
+.gujia .wrap .li1 b{
+	padding: 6px 12px;
+	margin-right:14px ;
+	border: 1px solid #525156;
+	cursor: pointer;
+	user-select: none;
+}
+.gujia .wrap .li1 select{
+	width: 140px;
+	height: 26px;
+	border: 1px solid #525156;
+}
+.gujia .wrap .li2 select{
+	width: 85px;
+	height: 26px;
+	border: 1px solid #525156;
+}
+.gujia .wrap .li4 .checkbox{
+	width: 13px;
+	height: 13px;
+}
+.gujia .wrap .li4 input{
+	width: 80px;
+	
+}
+.gujia .wrap .li4 span{
+	display: inline-block;
+	width: 70px;
+	text-align: left;
+}
+.gujia .wrap .li4 .label{
+	margin-left:104px ;
+	margin-top:15px ;
+}
+.jiesao{
+	width: 364px;
+	height: 226px;
+	background: #174a5d;
+	float: left;
+	margin: 34px 0 0 160px;
+}
+.jiesao .img{
+	margin:10px ;
+	width:100px;
+	height: 100px;
+	float: left;
+}
+.jiesao .text{
+	width: 240px;
+	height:100px ;
+	float: right;
+	margin-top:10px ;
+}
+.jiesao .text p:nth-child(1){
+	padding-bottom:10px ;
+	color: #a2b422;
+}
+.jiesao .text p:nth-child(2){
+	color: #dbecf4;
+}
+.jiesao .text p:nth-child(3){
+	color: #dbecf4;
+}
+.jiesao .text p:nth-child(4){
+	padding: 20px 0;
+	color: #a2b422;
+}
+.jiesao .text p:nth-child(5){
+
+	color: #a2b422;
+}
+.jiesao .text p:nth-child(6){
+	
+	color: #a2b422;
+}
+.jiesao .text p:nth-child(7){
+	
+	color: #158b37;
+}
+.jiesao .text p:nth-child(8){
+	
+	color: #158b37;
+}
+.button{
+	width: 90%;
+	height: 100px;
+	margin: 0 auto;
+	border-top:  1px solid #707b7f;
+}
+.button button{
+	margin: 30px 0 0 400px;
+	width: 210px;
+	height: 30px;
+	border: none;
+	background: #ca2b0d;
+	border-radius: 5px ;
+	color: white;
+}
+.gujia .top .search{
+	
+	float: right;
+	padding:27px 45px 35px 0 ;
+}
+.gujia .top p{
+	color: #d12807;
+	padding: 45px 0 0 45px;
+	float: left;
+}
+.gujia .top .search .input{
+	width: 270px;
+	
+	border-radius:16px ;
+	position: relative;
+	background: rgba(225,225,225,.8);
+}
+.gujia .top .search input{
+	border: none;
+	height: 35px;
+	width: 220px;
+	margin-left: 16px ;
+	background: rgba(225,225,225,0);
+}
+.gujia .top .search button{
+	width: 20px;
+	height: 21px;
+	background: rgba(225,225,225,.8);
+	border: none;
+	background: url(../img/sousuoicon.png) no-repeat;
+	background-size: cover;
+	position: absolute;
+	right: 10px;
+	top: 8px;
+
+}
+.gujia .wuping{
+	width: 1291px;
+	height: 721px;
+	background: rgba(225,225,225,.8);
+	margin: 0 auto;
+	border: 1px solid #2d444a;
+	padding-bottom:50px ;
+	
+} 
+.gujia .wuping li{
+	width: 169px;
+	height: 61px;
+	padding:56px 0 0 32px ;
+	float: left;
+}
+.gujia .wuping li .pic{
+	width: 60px;
+	height: 60px;
+	border: 1px solid #40789b;
+	float: left;
+}
+.gujia .wuping li .pic img{
+	width: 60px;
+	height: 60px;
+}
+.gujia .wuping li .text{
+	display: inline-block;
+	padding: 23px 0 0 28px;
+}
+.yema{
+	width: 500px;
+	height: 121px;
+	float: right;
+	margin-top:50px ;
+}
+.yema li{
+	margin-right:10px ;
+	float: left;
+		border: 1px solid #a1a5a8;
+		background: white;
+}
+.yema li a{
+	padding: 9px 12px;
+ display: inline-block;
+ color: black;
+}
+.hidden{
+	display: none;
+}
+.xiangqing h3{
+	width: 1293px;
+	height: 28px;
+	background: #f55145;
+	margin: 10px 0 11px 16px;
+	color: white;
+	border-radius: 4px ;
+	display: inline-block;
+	    font-size: 14px;
+    line-height: 28px;
+}
+.xiangqing .main{
+	width: 1293px;
+	margin: 0 auto;
+	background: rgba(225,225,225,.8);
+}
+.xiangqing .content{
+	width: 1140px;
+	height: 586px;
+	margin: 0 auto;
+	border-bottom: 1px solid #b0b5b8; 
+	position: relative;
+}
+.xiangqing .content .left{
+	width: 520px;
+	height: 150px;
+	float: left;
+	margin-top: 40px
+}
+.xiangqing .content li{
+	float: left;
+	
+}
+.xiangqing .content li:nth-child(2){
+	
+	margin:0 0 10px 49px;
+}
+.xiangqing .content li:nth-child(3){
+	
+	margin:0 0 10px 49px;
+}
+.xiangqing .content .left img{
+	width: 153px;
+	height: 153px;
+}
+.xiangqing .content .left span{
+	width: 40px;
+	text-align: right;
+}
+.xiangqing .content .left input{
+	width: 124px;
+	height: 26px;
+	background: rgba(225,225,225,0);
+	border: 1px solid black;
+	text-indent: 1em;
+}
+.xiangqing .content .right{
+	width: 263px;
+	height: 190px;
+	background: rgba(225,225,225,.9);
+	box-shadow: 5px 5px 10px #888888;
+	float: right;
+	margin-top: 40px
+} 
+.xiangqing .content .right li{
+	margin-top: 35px;
+	margin-left:10px; 
+}
+.xiangqing .content .right .name:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.xiangqing .content .right .name:nth-child(1){
+	color: #fe0010
+}
+.xiangqing .content .right .name:nth-child(2){
+	color: #7ba6d1
+}
+.xiangqing .content .right .name:nth-child(3){
+	color: #dcceb1
+}
+.xiangqing .content .right .text{
+	display: inline-block;
+	margin-top: 10px;
+	margin-left:10px;
+}
+.xiangqing .content .right a{
+	font-size: 16px;
+	color: black;
+	margin-top: 45px ;
+	display: inline-block;
+	margin-left: 100px 
+}
+.shangjia{
+	position: absolute;
+	bottom: 50px;
+	left:  45%;
+	width: 70px;
+	height: 32px;
+	border: none;
+	background: #f55145;
+	border-radius: 4px;
+	color: white;  
+}
+.jiage{
+	width: 1140px;
+	margin: 0 auto;
+}
+.jiage h4{
+	display: inline-block;
+    width: 100%;
+    padding-top: 15px;
+
+}
+.jiage li{
+	width: 140px;
+	margin: 27px 50px 10px 0;
+	float: left;
+}
+.jiage li .pic{
+	float: left;
+	width: 50px;
+	height: 50px;
+	
+}
+.jiage li .pic img{
+	width: 50px;
+	height: 50px;
+}
+.jiage li .text{
+	float: left;
+	margin-left: 12px;
+	margin-top: 10px; 
+}

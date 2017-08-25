@@ -1,0 +1,63 @@
+.content-top{width: 1328px;line-height: 32px;background: rgba(0,0,0,0.5);margin: 0 auto;}
+.content-top ul{width: 1256px;}
+.content-top li{float: left;width: 100px;text-align: center;}			
+.c-active{background: rgba(0,0,0,0.5);}
+.content-top li:hover{background: rgba(0,0,0,0.5);}
+.content{
+	width: 1328px;
+	margin: 0 auto;
+}
+.content .left{
+	width: 194px;
+	height: 534px;
+	float: left;
+	border: 1px solid #8fb0c1;
+	background: #f1f3f2;
+	margin:10px 0px 0px 1px;
+}
+.content  .left li{
+	width: 190px;
+	height: 38px;
+	border-bottom: 1px solid #a9bdbb;
+	margin: 2px 0 0 2px;
+	font-size:13px ;
+	line-height: 39px;
+	background:rgba(225,223,225,.8);
+}
+.content .left a{
+	color:#354e4b;
+	width: 100px;
+	padding-left:35px ;
+	color: black;
+}
+.content .right {
+	width: 1120px;
+	height: 534px;
+	float: left;
+	background: rgba(225,225,225,.8);
+	margin:10px 0 0 10px ;
+}
+.content .right .wansan{
+	width: 1012px;
+	height: 230px;
+	margin:35px 0 0 55px;
+	display: inline-block;
+	border-top:1px solid #969499 ;
+}
+.wansan li{
+	margin-top:25px ;
+}
+.wansan span{
+	text-align: right;
+	width: 90px;
+	display: inline-block;
+}
+small{
+	color: red;
+	display: inline-block;
+	
+}
+.wansan p{
+	margin:10px 0 0 50px  ;
+	color: red;
+}

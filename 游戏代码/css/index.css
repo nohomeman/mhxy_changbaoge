@@ -1,0 +1,42 @@
+			.content{width:1266px;border-radius: 2%;background: rgba(0,0,0,0.2);margin: 0 auto 20px auto;
+				padding:32px 32px 32px 32px;}
+			.content-gonggao{background:url(../img/tiao.png) no-repeat;line-height:34px;background-size: cover;
+				letter-spacing: 2px;text-indent: 13px;color: rgb(255,5,0);}
+			.content-box-left{width: 1060px;height:402px;float: left;}
+			.content-box-right{width: 180px;height:402px;float: right;}
+			.content-box-left-top>div,.content-box-left-bottom>div{width: 500px;}
+			.jiaoge,.zhaohuanshou{float: left;height:220px;}
+			.lingshi,.menghuanshou{float: right;height:220px;}
+			.content-box{margin-top: 10px;}
+			.content-box-left-bottom>div{height:175px}
+			.content-box-left-bottom>div img{height:175px;width: 121px;}
+			.content-box-left-bottom{margin-top: 11px;}
+			.box .box-left{float: left;width: 196px;}
+			.box .box-right{float: left;background: rgb(224,224,224);width: 304px;height:220px}
+			.box-right p{font-size: 16px;letter-spacing: 2px;text-indent: 8px;line-height: 36px;border-bottom: 1px solid rgb(183,183,183);}
+			.box-right-bottom li{overflow: hidden; text-overflow: ellipsis; 
+					white-space: nowrap;line-height: 32px; }
+			.box-right-bottom ul{margin-top: 9px;}
+			.box-right-bottom{width: 260px;margin: 0 auto;}
+			.box-right-bottom a{color: black;line-height: 34px;}
+			
+			.content-box-left-bottom-maisohu{padding-left: 10px;color: white;}
+			.content-box-left-bottom-maisohu ul{padding:5px 0}
+			.content-box-left-bottom-maisohu li{overflow: hidden; text-overflow: ellipsis; 
+					white-space: nowrap;width: 344px;}
+			.content-box-left-bottom-maisohu p{width: 369px;line-height: 36px;border-bottom: 1px solid white;font-size: 16px;}
+			.bg{background:rgb(227,157,85) ;}
+			.content-box-left-bottom-maisohu li{line-height:32px ;}
+			.content-box-right-top{background: rgb(227,157,85);}
+			.content-box-right-top p{line-height: 33px;border-bottom: 1px solid white;color: white;
+				letter-spacing: 2px;text-indent: 5px;font-size: 16px;}
+			.content-box-right-top ul{line-height: 28px;padding:5px 0;}
+			.content-box-right-top li{width: 156px;margin:0 auto;overflow: hidden; text-overflow: ellipsis; 
+					white-space: nowrap;color: white;}
+			.content-box-right-top li span{display: inline-block;width: 20px;border-radius: 100%;
+					line-height: 20px;text-align: center;font-size: 12px;margin-right: 5px;}
+			.content-box-right-top li span{background: rgb(195,196,200);}		
+			.content-box-right-top li:nth-child(1) span{background: rgb(255,7,8);}
+			.content-box-right-top li:nth-child(2) span{background: rgb(243,92,3);}
+			.content-box-right-top li:nth-child(3) span{background: rgb(248,138,75);}
+			.gonggao{margin-top: 13px;}

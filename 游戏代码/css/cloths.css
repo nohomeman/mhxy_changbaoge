@@ -1,0 +1,92 @@
+.release{
+	width: 1330px;
+	height: 565px;
+	margin: 0 auto;
+	background: rgba(255,255,255,.5);
+	border-radius:10px ;
+	box-shadow: 0 0 40px #000000;
+}
+.release .left{
+	width: 194px;
+	height: 534px;
+	float: left;
+	border: 1px solid #8fb0c1;
+	background: #f1f3f2;
+	margin:10px 0px 0px 1px;
+}
+.release .left li{
+	width: 190px;
+	height: 38px;
+	border-bottom: 1px solid #a9bdbb;
+	margin: 2px 0 0 2px;
+	font-size:13px ;
+	line-height: 39px;
+	background:rgba(225,223,225,.8);
+}
+.release .left a{
+	color:#354e4b;
+	font-weight: 600;
+	width: 100px;
+	padding-left:35px ;
+}
+.release .right{
+	width: 1120px;
+	height:534px;
+	margin-right:1px ;
+	float: right;
+	margin-top:10px ;
+	
+}
+.release .right table{
+	width: 1118px;
+	height:444px;
+	border: 1px solid #58badd;
+	color: #263e42;
+	margin-bottom:33px ;
+}
+.release .right td{
+	border-bottom:1px solid  #58badd;
+}
+.release .right .tr td{
+	border-bottom:none ;
+}
+.release .right tr td:nth-child(1){
+	width: 575px;
+} 
+.release .right tr td:nth-child(2){
+	width: 299px;
+}
+.release .right tr td:nth-child(3){
+	width: 143px;
+} 
+.release .right tr td:nth-child(4){
+	width: 102px;
+} 
+.release .right button{
+	width: 125px;
+	height: 35px;
+	border: 1px solid #64808e;
+	background: #af93a1;
+	border-radius: 5px;
+	color: white;
+}
+.release .right-bottom{
+	position: relative;
+}
+.release .right-bottom button:nth-child(1){
+	margin:0 73px 0 120px ;
+}
+.release  .right-bottom ul{
+	position: absolute;
+	top: 6px;
+	right:121px;
+}
+.release  .right-bottom li {
+	float: left;
+	margin-right:20px ;
+} 
+.release  .right-bottom li a{
+	padding: 6px 12px;
+	border: 1px solid #748a95;
+	color:#14252f ;
+} 

@@ -1,0 +1,141 @@
+.content-top{width: 1328px;line-height: 32px;background: rgba(0,0,0,0.5);margin: 0 auto;}
+.content-top ul{width: 1256px;}
+.content-top li{float: left;width: 100px;text-align: center;}			
+.c-active{background: rgba(0,0,0,0.5);}
+.content-top li:hover{background: rgba(0,0,0,0.5);}
+
+.content{
+	width: 1328px;
+	background: rgba(225,225,225,.8);
+	border-radius:0 0 10px 10px ;
+	margin: 0 auto;
+	padding-bottom: 20px
+}
+.content .main{
+	width: 1125px;
+	margin: 0 auto;
+}
+.content .main h4{
+	display: inline-block;
+    height: 64px;
+    line-height: 64px;
+}
+.content .wrap{
+	width: 100%;
+	padding-bottom: 20px;
+	background: rgba(225,225,225,.8);
+	margin-top: 7px ;
+	border-bottom: 1px solid #999999
+}
+.content .wrap .left{
+	width: 600px;
+	height: 482px;
+	float: left;
+	margin-top: 33px;
+	border-right: 1px solid #999999
+}
+.content .wrap .right{
+	
+}                 
+.tianjiasp{
+	width: 1080px;
+	background: rgba(225,225,225,.8);
+	padding-bottom: 25px
+}
+.tianjiasp .left{
+	width: 529px;
+	height: 577px;
+	margin-top: 15px;
+	border-right:1px solid #8b8b8b;
+	float: left;
+}
+.tianjiasp .wuping{
+	width: 422px;
+	height: 170px;
+	border: 1px solid #87cefc;
+	background: #174a5f;
+	margin: 40px 0 0 90px;
+}
+.tianjiasp .wuping .pic{
+	margin: 25px 0 0 25px;
+	float: left;
+}
+.tianjiasp .wuping img{
+	width: 118px;
+	height: 118px
+}
+.tianjiasp .wuping .text{
+	float: left;
+	margin:34px 0 0 30px 
+}
+.tianjiasp .wuping .text p{
+	margin-bottom: 15px;
+	color: #9faa28
+}
+.tianjiasp .right{
+	float: left;
+}
+.tianjiasp .right .wupingzl{
+	margin: 40px 0 0 199px
+}
+.tianjiasp .right .wupingzl li{
+	margin-bottom: 35px
+}
+.tianjiasp  .btn{
+	margin:10px 0 0 429px 
+}
+.tianjiasp  .btn button{
+	width: 70px;
+	height: 35px;
+	border: none;
+	color: white;
+	background: #f35a55;
+	border-radius: 4px ;
+	margin-left: 10px
+}
+.shangjia{
+	width: 60px;
+	height: 25px;
+	background: #478aff;
+	color: white;
+	border: none;
+	display: block;
+	margin: 10px 0 0 500px;
+	border-radius: 4px
+}
+.jiage{
+	width: 950px;
+	margin: 0 auto;
+}
+.jiage h4{
+	display: inline-block;
+    width: 100%;
+    padding-top: 15px;
+
+}
+.jiage li{
+	width: 140px;
+	margin: 27px 50px 10px 0;
+	float: left;
+}
+.jiage li .pic{
+	float: left;
+	width: 50px;
+	height: 50px;
+	
+}
+.jiage li .pic img{
+	width: 50px;
+	height: 50px;
+}
+.jiage li .text{
+	float: left;
+	margin-left: 12px;
+	margin-top: 10px; 
+}
+.last{
+	margin: 0
+}
+.gujia .wrap .li1 b a{
+	color: black
+}

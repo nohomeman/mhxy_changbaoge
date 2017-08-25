@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<style>
+			.nihao span{
+				color:rgb(4,137,232);font-weight: 600;
+			}
+			.qu{margin-bottom: 10px;}
+			.qu span{color: rgb(4,137,232);font-weight: 600;}
+			.fuwuqi{width: 578px;padding:0 77px 35px 77px;background: url(img/_0003_back-img.png);margin: 0 auto;line-height:54px ;}
+			.title-box{position: relative;background: url(img/_0002_yellowL.png);}
+			.title-box a{position: absolute;top:5px;right: 5px;font-size: 18px;color: white;}
+		</style>
+	</head>
+	<body id="app">
+		<div class="header">
+			<img class="logo" src="img/logo.png">
+			<div class="header-right">
+				<div class="clearfix qu">				
+				<p class="pull-right"><span>湖北1区</span>-<span>武当山</span><a href="javascript:;">【切换服务器】</a></p>
+				</div>
+				<div>
+				<p class="nihao">你好,<span>木木ew</span>,欢迎来到万宝楼!</p>
+				<ul class="ul1 clearfix">
+					<li><a href="javascript:;">登录</a></li>
+					<li><a href="javascript:;">注册</a></li>
+				</ul>
+				<ul class="ul2 clearfix">
+					<li><a href="javascript:;">充值</a></li>
+					<li><a href="javascript:;">客服</a></li>
+					<li><a href="javascript:;">个人中心</a></li>
+				</ul>
+				</div>
+			</div>
+		</div>	
+		
+		<div class="mune">
+			<div class="mune-box">
+				<ul class="clearfix">
+					<li class="active"><a href="javascript:;">首页</a></li>
+					<li><a href="javascript:;">本服搜索</a></li>
+					<li><a href="javascript:;">全服搜索</a></li>
+					<li><a href="javascript:;">本服商会搜索</a></li>
+					<li><a href="javascript:;">求供信息发布</a></li>
+					<li><a href="javascript:;">数据个性定制</a></li>
+					<li><a href="javascript:;">物品估价</a></li>
+					<li><a href="javascript:;">梦幻币比例</a></li>
+					<li><a href="javascript:;">留言反馈</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="content">
+			<div class="content-gonggao">您必须先注册登录，才能够使用我们的服务，请在网站上方导航条点击登录或注册</div>
+			<div class="content-box clearfix">
+				<div class="content-box-left">
+					<div class="content-box-left-top clearfix">
+						<div class="box clearfix pull-left">
+							<div class="box-left">
+								<img src="img/shouye_03.png">
+							</div>
+							<div class="box-right">
+								<p>角色装备区</p>
+								<div class="box-right-bottom data1">
+									<ul>
+
+									</ul>
+									<a class="pull-right" href="#">装备搜索» »</a>
+								</div>
+							</div>
+						</div>
+						<div class="box clearfix pull-right">
+							<div class="box-left">
+								<img src="img/shouye_03.png">
+							</div>
+							<div class="box-right">
+								<p>灵饰区</p>
+								<div class="box-right-bottom data2">
+									<ul>
+
+									</ul>
+									<a class="pull-right" href="#">灵饰搜索» »</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="content-box-left-bottom clearfix">
+						<div class="pull-left bg">
+							<div class="pull-left">
+								<img src="img/shouye_09.png">
+							</div>
+							<div class="pull-left content-box-left-bottom-maisohu data3">
+								<p>召唤兽</p>
+								<ul>
+
+								</ul>
+							</div>
+						</div>
+						
+						<div class="pull-right bg">
+							<div class="pull-left">
+								<img src="img/shouye_09.png">
+							</div>
+							<div class="pull-left content-box-left-bottom-maisohu data4">
+								<p>召唤兽</p>
+								<ul>
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="content-box-right">
+					<div class="content-box-right-top data5">
+						<p>最新公告</p>
+						<ul>
+						</ul>
+					</div>
+					<div class="content-box-right-top gonggao data6">
+						<p>最新公告</p>
+						<ul>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer">
+			<p>所有解释权由幻宝楼梦幻商业数据分析品台所具有</p>
+			<p>公司版权有©1997-2017 中国网络游戏版权保护联盟中心</p>
+		</div>
+		
+		<div class="fuwuqi">
+			<div class="title-box">
+				<p>大区选择-服务器选择</p>
+				<a href="javascript:;">X</a>
+			</div>
+			<div class="fuwuqi-box">
+			
+			</div>
+		</div>
+		
+	</body>
+	<script src="js/jquery.min.js"></script>
+	<script>
+		//box-right-bottom ul1
+		$(function(){
+			//角色
+			var options1=["角色最新上架，180级混元金锤，1装备技而我却",
+						"最新上架，180级混元金锤，2装备技能而我却二2",
+						"最新上架，180级混元金锤，3装备技能而我却二3",
+						"最新上架，180级混元金锤，4装备技能王企鹅4"]
+			$.fn.show1(options1)
+			
+			//灵饰
+			var options2=["灵饰最新上架，180级混元金锤，1装备技而我却",
+						"最新上架，180级混元金锤，2装备技能而我却二2",
+						"最新上架，180级混元金锤，3装备技能而我却二3",
+						"最新上架，180级混元金锤，4装备技能王企鹅4"]
+			$.fn.show2(options2)
+			
+			//召唤兽
+			var options3=["召唤兽最新上架，180级混元金锤，1装备技而我却",
+						"最新上架，180级混元金锤，2装备技能而我却二2",
+						"最新上架，180级混元金锤，3装备技能而我却二3",
+						"最新上架，180级混元金锤，4装备技能王企鹅4"]
+			$.fn.show3(options3)
+			
+			//梦幻币比例
+			var options4=["梦幻币比例最新上架，180级混元金锤，1装备技而我却",
+						"最新上架，180级混元金锤，2装备技能而我却二2",
+						"最新上架，180级混元金锤，3装备技能而我却二3",
+						"最新上架，180级混元金锤，4装备技能王企鹅4"]
+			$.fn.show4(options4)
+			
+			//最新公告
+			var options5=["最新公告幻宝楼全服搜索装备公司",
+						"幻宝楼全服搜索装备公司",
+						"幻宝楼全服搜索装备公司"]
+			$.fn.show5(options5)
+			
+			//排行榜
+			var options6=["最新公告幻宝楼全服搜索装备公司",
+						"幻宝楼全服搜索装备公司",
+						"幻宝楼全服搜索装备公司",
+						"幻宝楼全服搜索装备公司",
+						"幻宝楼全服搜索装备公司",
+						"幻宝楼全服搜索装备公司",
+						"幻宝楼全服搜索装备公司",
+						"幻宝楼全服搜索装备公司"]
+			$.fn.show6(options6)
+		})	
+		
+		//data1 角色	
+		$.fn.extend({
+			show1:function(options){
+				for(i=0;i<options.length;i++){
+					console.log(options[i])
+					var h ='<li><a href="javascript:;">'+options[i]+'</a></li>'
+					$(".data1 ul").append(h)
+				}
+			}
+		})
+
+
+		//data2 灵饰			
+		$.fn.extend({
+			show2:function(options){
+				for(i=0;i<options.length;i++){
+					console.log(options[i])
+					var h ='<li><a href="javascript:;">'+options[i]+'</a></li>'
+					$(".data2 ul").append(h)
+				}
+			}
+		})
+		
+		//data3 召唤兽			
+		$.fn.extend({
+			show3:function(options){
+				for(i=0;i<options.length;i++){
+					console.log(options[i])
+					var h ='<li><a href="javascript:;">'+options[i]+'</a></li>'
+					$(".data3 ul").append(h)
+				}
+			}
+		})
+		
+		//data4 梦幻币比例			
+		$.fn.extend({
+			show4:function(options){
+				for(i=0;i<options.length;i++){
+					console.log(options[i])
+					var h ='<li><a href="javascript:;">'+options[i]+'</a></li>'
+					$(".data4 ul").append(h)
+				}
+			}
+		})
+		
+		//data5 最新公告			
+		$.fn.extend({
+			show5:function(options){
+				for(i=0;i<options.length;i++){
+					console.log(options[i])
+					var h ='<li><a href="javascript:;"><span>'+(i+1)+'</span>'+options[i]+'</a></li>'
+					$(".data5 ul").append(h)
+				}
+			}
+		})
+		
+		//data6最新公告			
+		$.fn.extend({
+			show6:function(options){
+				for(i=0;i<options.length;i++){
+					console.log(options[i])
+					var h ='<li><a href="javascript:;"><span>'+(i+1)+'</span>'+options[i]+'</a></li>'
+					$(".data6 ul").append(h)
+				}
+			}
+		})
+	</script>
+</html>

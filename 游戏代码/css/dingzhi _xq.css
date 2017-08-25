@@ -1,0 +1,79 @@
+.dingzhi{
+	width: 1328px;
+	background: rgba(225,225,225,.5);
+	margin: 0 auto;
+	border-radius:10px ;
+	padding-bottom: 30px
+}
+.dingzhi .title{
+	width: 100%;
+	height: 43px;
+	background: #191816;
+}
+.dingzhi .title li{
+	line-height: 43px;
+	padding-left:85px ;
+	float: left;
+	
+}
+.dingzhi .title li a{
+	color: #818181;
+}
+.content-top{width: 100%;line-height: 32px;background: rgba(0,0,0,0.5);}
+.content-top ul{width: 1256px;}
+.content-top li{float: left;width: 100px;text-align: center;}			
+.c-active{background: rgba(0,0,0,0.5);}
+.content-top li:hover{background: rgba(0,0,0,0.5);}
+.dingzhixq h4{
+	height: 48px;
+	line-height: 48px
+}
+.dingzhixq .content{
+	width: 1290px;
+	margin: 0 auto;
+	background: rgba(255, 255, 255, 0.5);
+	padding-bottom: 30px
+}
+.dingzhixq .content li{
+	margin: 33px 0 0 65px;
+	float: left;
+	position: relative;
+}
+.dingzhixq .content .left-pic{
+	float: left;
+}
+.dingzhixq .content .right-text{
+	float: left;
+	margin-left:10px 
+}
+.dingzhixq .content .right-text .fu-qu{
+	color: #3e9fd4
+}
+li .xinxi{
+	position: absolute;
+	left: 70px;
+	top: 0;
+	width: 320px;
+	height: 210px;
+	background: #174a5d;
+	display: none;
+	z-index: 1
+}
+ li .xinxi .left-img{
+ 	float: left;
+ 	margin: 33px 0 0 25px
+ } 
+ li .xinxi .left-img img{
+ 	width: 146px;
+ 	height: 143px;
+	
+ }
+  li .xinxi .right-text{
+ 	float: left;
+ 	font-size: 16px;
+ 	color: #eff811;
+ 	margin: 60px 0 0 10px
+ } 
+   li .xinxi .right-text p{
+   	margin-top:15px  
+   }
